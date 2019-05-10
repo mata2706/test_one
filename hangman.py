@@ -30,5 +30,6 @@ def hangman():
     if not win:
         print('\n'.join(stages[0: wrong_guesses]))
         print('You lose! The words was {}'.format(word))
+#コメント
 
 hangman()
